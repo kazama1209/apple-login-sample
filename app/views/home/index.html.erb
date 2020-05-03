@@ -1,0 +1,8 @@
+<h1>Sign in with Apple</h1>
+
+<% if user_signed_in? %>
+	<%= link_to 'logout', destroy_user_session_path, method: :delete %>
+	<h1>Hello、<%=  current_user.email %>！</h1>
+<% else %>
+	<%= link_to 'login', user_apple_omniauth_authorize_path %>
+<% end %>
