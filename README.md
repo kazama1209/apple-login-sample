@@ -30,6 +30,7 @@ end
 ```
 
 ※各値の取得方法については次の記事を参照。（[Sign in with Apple を実装するために必要な証明書の作り方](https://www.ginzaitlab.com/posts/6889998/)）
+
 ※実際に運用する場合は「dotenv」などで環境変数を管理。
 
 ## Return URLsの設定
